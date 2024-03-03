@@ -248,3 +248,6 @@ Deployment/**/charts/
 
 #IntelliJ
 /.teamcity/.idea/
+
+# Pact
+/Pacts

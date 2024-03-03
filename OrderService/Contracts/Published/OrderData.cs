@@ -1,4 +1,4 @@
-﻿namespace OrderService.Contracts;
+﻿namespace OrderService.Contracts.Published;
 
 public class OrderData
 {
