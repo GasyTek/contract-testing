@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{CADB9065-BB95-42B3-97CE-336B91518DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{D83E5284-E60B-4E3C-90A7-72CE60123AA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{5F78172E-82A3-428A-8617-636F5CC118EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{B80CA2DE-8EE9-4502-8407-86CB78BC56AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADB9065-BB95-42B3-97CE-336B91518DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADB9065-BB95-42B3-97CE-336B91518DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADB9065-BB95-42B3-97CE-336B91518DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADB9065-BB95-42B3-97CE-336B91518DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83E5284-E60B-4E3C-90A7-72CE60123AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83E5284-E60B-4E3C-90A7-72CE60123AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83E5284-E60B-4E3C-90A7-72CE60123AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83E5284-E60B-4E3C-90A7-72CE60123AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CADB9065-BB95-42B3-97CE-336B91518DF6} = {5F78172E-82A3-428A-8617-636F5CC118EB}
+		{D83E5284-E60B-4E3C-90A7-72CE60123AA2} = {B80CA2DE-8EE9-4502-8407-86CB78BC56AC}
+	EndGlobalSection
+EndGlobal
