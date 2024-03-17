@@ -1,0 +1,42 @@
+{
+  "consumer": {
+    "name": "OrderService"
+  },
+  "interactions": [
+    {
+      "description": "A request for a product",
+      "providerStates": [
+        {
+          "name": "A product with the given id exists"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/products/1"
+      },
+      "response": {
+        "body": {
+          "Id": 1,
+          "Reference": "How to implement contract testing",
+          "Type": "Book"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "ProductService"
+  }
+}
